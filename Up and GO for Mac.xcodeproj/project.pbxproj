@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB24D6A1EF75B120026CA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB24D691EF75B120026CA67 /* AppDelegate.swift */; };
+		7CB24D6C1EF75B120026CA67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB24D6B1EF75B120026CA67 /* ViewController.swift */; };
+		7CB24D6F1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CB24D6D1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodeld */; };
+		7CB24D711EF75B120026CA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB24D701EF75B120026CA67 /* Assets.xcassets */; };
+		7CB24D741EF75B120026CA67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB24D721EF75B120026CA67 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CB24D661EF75B120026CA67 /* Up and GO for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Up and GO for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB24D691EF75B120026CA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CB24D6B1EF75B120026CA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CB24D6E1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Up_and_GO_for_Mac.xcdatamodel; sourceTree = "<group>"; };
+		7CB24D701EF75B120026CA67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CB24D731EF75B120026CA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CB24D751EF75B120026CA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB24D631EF75B120026CA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB24D5D1EF75B120026CA67 = {
+			isa = PBXGroup;
+			children = (
+				7CB24D681EF75B120026CA67 /* Up and GO for Mac */,
+				7CB24D671EF75B120026CA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB24D671EF75B120026CA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB24D661EF75B120026CA67 /* Up and GO for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB24D681EF75B120026CA67 /* Up and GO for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				7CB24D691EF75B120026CA67 /* AppDelegate.swift */,
+				7CB24D6B1EF75B120026CA67 /* ViewController.swift */,
+				7CB24D701EF75B120026CA67 /* Assets.xcassets */,
+				7CB24D721EF75B120026CA67 /* Main.storyboard */,
+				7CB24D751EF75B120026CA67 /* Info.plist */,
+				7CB24D6D1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodeld */,
+			);
+			path = "Up and GO for Mac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB24D651EF75B120026CA67 /* Up and GO for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB24D781EF75B120026CA67 /* Build configuration list for PBXNativeTarget "Up and GO for Mac" */;
+			buildPhases = (
+				7CB24D621EF75B120026CA67 /* Sources */,
+				7CB24D631EF75B120026CA67 /* Frameworks */,
+				7CB24D641EF75B120026CA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Up and GO for Mac";
+			productName = "Up and GO for Mac";
+			productReference = 7CB24D661EF75B120026CA67 /* Up and GO for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB24D5E1EF75B120026CA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SiteWiz;
+				TargetAttributes = {
+					7CB24D651EF75B120026CA67 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = S5DU524B3W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7CB24D611EF75B120026CA67 /* Build configuration list for PBXProject "Up and GO for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB24D5D1EF75B120026CA67;
+			productRefGroup = 7CB24D671EF75B120026CA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CB24D651EF75B120026CA67 /* Up and GO for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB24D641EF75B120026CA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB24D711EF75B120026CA67 /* Assets.xcassets in Resources */,
+				7CB24D741EF75B120026CA67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB24D621EF75B120026CA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB24D6C1EF75B120026CA67 /* ViewController.swift in Sources */,
+				7CB24D6A1EF75B120026CA67 /* AppDelegate.swift in Sources */,
+				7CB24D6F1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CB24D721EF75B120026CA67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB24D731EF75B120026CA67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CB24D761EF75B120026CA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CB24D771EF75B120026CA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7CB24D791EF75B120026CA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5DU524B3W;
+				INFOPLIST_FILE = "Up and GO for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sitewiz.Up-and-GO-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CB24D7A1EF75B120026CA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S5DU524B3W;
+				INFOPLIST_FILE = "Up and GO for Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.sitewiz.Up-and-GO-for-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB24D611EF75B120026CA67 /* Build configuration list for PBXProject "Up and GO for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB24D761EF75B120026CA67 /* Debug */,
+				7CB24D771EF75B120026CA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB24D781EF75B120026CA67 /* Build configuration list for PBXNativeTarget "Up and GO for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB24D791EF75B120026CA67 /* Debug */,
+				7CB24D7A1EF75B120026CA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CB24D6D1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CB24D6E1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodel */,
+			);
+			currentVersion = 7CB24D6E1EF75B120026CA67 /* Up_and_GO_for_Mac.xcdatamodel */;
+			path = Up_and_GO_for_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CB24D5E1EF75B120026CA67 /* Project object */;
+}
